@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/kepgaleria_context/static/css/main.c57e738a.css",
-    "main.js": "/kepgaleria_context/static/js/main.73084e09.js",
+    "main.css": "/kepgaleria_context/static/css/main.008150c4.css",
+    "main.js": "/kepgaleria_context/static/js/main.20959094.js",
     "static/js/453.fb66cead.chunk.js": "/kepgaleria_context/static/js/453.fb66cead.chunk.js",
     "index.html": "/kepgaleria_context/index.html",
-    "main.c57e738a.css.map": "/kepgaleria_context/static/css/main.c57e738a.css.map",
-    "main.73084e09.js.map": "/kepgaleria_context/static/js/main.73084e09.js.map",
+    "main.008150c4.css.map": "/kepgaleria_context/static/css/main.008150c4.css.map",
+    "main.20959094.js.map": "/kepgaleria_context/static/js/main.20959094.js.map",
     "453.fb66cead.chunk.js.map": "/kepgaleria_context/static/js/453.fb66cead.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c57e738a.css",
-    "static/js/main.73084e09.js"
+    "static/css/main.008150c4.css",
+    "static/js/main.20959094.js"
   ]
 }
