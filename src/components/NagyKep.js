@@ -9,7 +9,7 @@ export default function NagyKep(props) {
     
     return <>
     <button className="button-balra"  onClick={()=>{balraLep()}}>◀</button>
-    <img className="Nagy" src={props.kep.link} alt={props.kep.leiras} />
+    <img onClick={()=>{jobbraLep()}} className="Nagy" src={props.kep.link} alt={props.kep.leiras} />
     <button className="button-jobbra"  onClick={()=>{jobbraLep()}}>▶</button>
 
     </>
