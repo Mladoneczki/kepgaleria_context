@@ -20,9 +20,9 @@ export const lista = [
       leiras: "Pókháló",
     },
     {
-      link: `${process.env.PUBLIC_URL}/kepek/6 (1).jpg`,
+      link: `${process.env.PUBLIC_URL}/kepek/10 (2).jpg`,
       cim: "4",
-      leiras: "lámpás",
+      leiras: "hold",
     },
     {
       link: `${process.env.PUBLIC_URL}/kepek/7 (2).jpg`,

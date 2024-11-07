@@ -6,10 +6,15 @@ export const KattProvider = ({ children }) => {
   const [index,setIndex]=useState(0)
    
   function balraLep(){
-      /* index értékét egyel csökkentjük */
-  }
+    let sv=index-1
+    if (sv<=0){
+        sv=lista.length-1
+    }
+    setIndex(sv)
+}
+      
   function jobbraLep(){
-      /* index értékét növeljük */
+      
       let sv=index+1
       if (sv>=lista.length){
           sv=0
