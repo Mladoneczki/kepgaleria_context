@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+html{
+  background-color: #0d0215;
+}
+.App-header {
+  
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color:#D3D3D3;
+  margin-bottom: 30px;
+}
+h1 {
+  filter: blur(1px);
+  text-shadow: 0 0 8px rgba(176, 172, 172, 0.7), 0 0 12px rgba(115, 113, 113, 0.6);
+}
+.nagykep{
+  display: flex;
+  flex-direction: row;
+  align-items: center ;
+  justify-content: center;
+}
+.Nagy {
+  margin-bottom: 10px;
+  width: 600px;
+  height: 350px;
+  object-fit: cover;
+  border: 4px solid #000000e2;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.9);
+}
+.kiskepek img {
+  width: 120px;
+  height: 80px;
+  object-fit: cover;
+  border: 2px solid #000000e2;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
+  transition: transform 0.2s ease-in-out;
+}
+.kiskepek img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+}
+button{
+  margin: 10px;
+  height: 30px;
+  width: 30px;
+  background-color: #D3D3D3;
+  border: none;
+  box-shadow: 0 0 8px rgba(176, 172, 172, 0.7), 0 0 12px rgba(115, 113, 113, 0.6);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
